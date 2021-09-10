@@ -20,6 +20,7 @@ export const StyledRoot = styled<{$shape: string, $length: number}>(
         : '-0.5px';
     return {
       display: 'flex',
+      flexWrap: 'wrap',
       marginLeft: margin,
       marginRight: margin,
     };
